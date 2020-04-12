@@ -1,0 +1,39 @@
+  * {
+    transition-duration: .6s;
+
+  }
+  
+  body {
+    background-color: #F9D490;
+  }
+      table {
+        cursor: pointer;
+        background-color: yellow;
+        border:6px solid red;
+        margin-top: 200px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 5px;
+      }
+
+      td {
+        border: red solid 3px;
+        width: 50px;
+        height: 50px;
+        font-size: 15px;
+      }
+  
+      
+      td.even {
+        background-color: blue;
+      }
+      td.even:hover {
+        background-color: yellow;
+      }
+      /*td:nth-of-type(even) {
+        background-color: blue;
+      }
+
+      
+    
